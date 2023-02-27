@@ -13,6 +13,8 @@ class Lua96App extends WApplication {
             term.println("\x1b[31mNo file specified\x1b[0m");
         }
         await term.pause();
+        this.kill();
+        term_instance.stopHost();
     }
 }
 
