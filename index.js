@@ -9,7 +9,7 @@ if(!term) {
 class Lua96App extends WApplication {
     constructor() { super() }
     async main(argv) {
-        if(!argv[0]) {
+        if(!argv[1]) {
             term.println("\x1b[31mNo file specified\x1b[0m");
         }
         await term.pause();
