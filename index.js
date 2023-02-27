@@ -1,0 +1,1 @@
+//!wrt $BSPEC:{"frn":"Lua96","aut":"themirrazz","dsc":"Run Lua programs on Windows 96","ver":"0.0.1-beta","ssy":"gui","icn":"C:/system/local/share/lua96/icon.png"}
