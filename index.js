@@ -3,7 +3,7 @@ const {Theme} = w96.ui;
 var term = this.boxedEnv.term;
 var term_instance;
 if(!term) {
-    term_instance = await w96.util.requestTerminal();
+    term_instance = await w96.util.requestTerminal("Lua");
     term = term_instance.terminal;
 }
 class Lua96App extends WApplication {
